@@ -1,4 +1,4 @@
-using System;
+
 using UnityEngine;
 
 
@@ -9,12 +9,9 @@ public class CameraManager : MonoBehaviour
     public Camera robotCamera;
 
     public bool usingRobotCamera;
+    
 
-    void Start()
-    {
-        usingRobotCamera = false;
-    }
-
+    
     // Update is called once per frame
     void Update()
     {
