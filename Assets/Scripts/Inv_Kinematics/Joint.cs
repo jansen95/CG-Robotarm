@@ -1,19 +1,22 @@
 using UnityEngine;
 
-public class Joint : MonoBehaviour
+namespace Inv_Kinematics
 {
-    public Joint m_child;
-
-    public Joint GetChild()
+    public class Joint : MonoBehaviour
     {
-        return m_child;
+        public Joint child;
+
+        public Joint GetChild()
+        {
+            return child;
+        }
+
+        public void Rotate(float angle)
+        {
+            transform.Rotate(Vector3.up * angle);
+        }
+
+
+
     }
-
-    public void Rotate(float _angle)
-    {
-        transform.Rotate(Vector3.up * _angle);
-    }
-
-
-
 }

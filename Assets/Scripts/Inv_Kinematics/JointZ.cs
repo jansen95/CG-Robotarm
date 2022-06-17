@@ -1,18 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class JointZ : MonoBehaviour
+namespace Inv_Kinematics
 {
-    public JointZ m_child;
-
-    public JointZ GetChild()
+    public class JointZ : MonoBehaviour
     {
-        return m_child;
-    }
+        public JointZ child;
 
-    public void Rotate(float _angle)
-    {
-        transform.Rotate(Vector3.forward * _angle);
+        public JointZ GetChild()
+        {
+            return child;
+        }
+
+        public void Rotate(float angle)
+        {
+            transform.Rotate(Vector3.forward * angle);
+        }
     }
 }
