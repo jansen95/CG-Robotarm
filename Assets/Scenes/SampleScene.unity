@@ -455,7 +455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18746cba13afc3542930e20515d3615d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_child: {fileID: 0}
+  child: {fileID: 0}
 --- !u!114 &102669977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -468,7 +468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3b91eec142acba45bdd8c513d28efde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_child: {fileID: 0}
+  child: {fileID: 0}
 --- !u!1 &104373375
 GameObject:
   m_ObjectHideFlags: 0
@@ -1293,7 +1293,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3b91eec142acba45bdd8c513d28efde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_child: {fileID: 845983888}
+  child: {fileID: 845983888}
 --- !u!1 &414923533
 GameObject:
   m_ObjectHideFlags: 0
@@ -2403,7 +2403,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3b91eec142acba45bdd8c513d28efde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_child: {fileID: 102669977}
+  child: {fileID: 102669977}
 --- !u!1 &651127275
 GameObject:
   m_ObjectHideFlags: 0
@@ -2690,7 +2690,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18746cba13afc3542930e20515d3615d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_child: {fileID: 102669976}
+  child: {fileID: 102669976}
 --- !u!21 &700110917
 Material:
   serializedVersion: 8
@@ -3438,11 +3438,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87759f6abde8f6f43aa4081c5d4d0e8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_root: {fileID: 677880012}
-  m_end: {fileID: 102669976}
-  m_target: {fileID: 1605656533}
-  m_threshold: 0.05
-  m_rate: 15
+  root: {fileID: 677880012}
+  end: {fileID: 102669976}
+  target: {fileID: 1605656533}
+  threshold: 0.05
+  rate: 15
 --- !u!1 &793380633
 GameObject:
   m_ObjectHideFlags: 0
@@ -3818,7 +3818,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3b91eec142acba45bdd8c513d28efde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_child: {fileID: 611439012}
+  child: {fileID: 611439012}
 --- !u!1 &881366190
 GameObject:
   m_ObjectHideFlags: 0
@@ -7443,11 +7443,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f1ea98c66da04b4687eca0b8fd010ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_root: {fileID: 414878630}
-  m_end: {fileID: 102669977}
-  m_target: {fileID: 1605656533}
-  m_threshold: 0.05
-  m_rate: 15
+  root: {fileID: 414878630}
+  end: {fileID: 102669977}
+  target: {fileID: 1605656533}
+  threshold: 0.05
+  rate: 15
 --- !u!4 &1711405824
 Transform:
   m_ObjectHideFlags: 0
