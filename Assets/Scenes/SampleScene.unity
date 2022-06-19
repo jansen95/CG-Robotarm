@@ -132,7 +132,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 56592165}
-  - component: {fileID: 56592166}
   m_Layer: 0
   m_Name: IRB7600-500-255_IRC5_rev03_01-7.SAT
   m_TagString: Untagged
@@ -156,26 +155,6 @@ Transform:
   m_Father: {fileID: 1227664929}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &56592166
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 56592164}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4a07b89af670684fb0ec682aa981371, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wasUserWarned: 0
-  _path: C:/Users/alexa/Downloads/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev03_01-7.SAT
-  _importTime: 637886634204383275
-  _importDuration: 14800269
-  _lastWriteTime: 637886560272590249
-  _lastFileSize: 1385629
-  _importSettings: {fileID: 2134458600}
-  _rules: {fileID: 0}
 --- !u!21 &85593996
 Material:
   serializedVersion: 8
@@ -337,61 +316,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 88543716}
   m_Mesh: {fileID: 1211761500}
---- !u!114 &99576818
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2081cc53cfa1d274baace4797d5a2a7c, type: 3}
-  m_Name: Default Import Settings
-  m_EditorClassIdentifier: 
-  loadMetadata: 1
-  importLines: 0
-  importPatchBorders: 0
-  importPoints: 0
-  scaleFactor: 0.001
-  orientation: 0
-  isLeftHanded: 0
-  isZUp: 0
-  stitchPatches: 0
-  treeProcess: 0
-  treeLevel: 1
-  mergeBy: 0
-  mergeType: 1
-  sizeOfRegions: 10
-  numberOfRegions: 10
-  repair: 1
-  combinePatchesByMaterial: 1
-  hasLODs: 0
-  lodsMode: 1
-  qualities:
-    _lods:
-    - quality: 1
-      threshold: 0.7
-    - quality: 2
-      threshold: 0.35
-    - quality: 3
-      threshold: 0.1
-    - quality: 5
-      threshold: 0
-    _locked: 1
-  voxelizeGridSize: 0
-  lodCount: 3
-  mapUV: 0
-  mapUV3dSize: -1
-  createLightmapUV: 0
-  lightmapResolution: -1
-  uvPadding: 4
-  orient: 0
-  splitTo16BytesIndex: 0
-  shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  useMaterialsInResources: 0
-  avoidNegativeScale: 1
-  repairInstances: 1
 --- !u!1 &102669972
 GameObject:
   m_ObjectHideFlags: 0
@@ -455,7 +379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18746cba13afc3542930e20515d3615d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_child: {fileID: 0}
+  child: {fileID: 0}
 --- !u!114 &102669977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -468,7 +392,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3b91eec142acba45bdd8c513d28efde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_child: {fileID: 0}
+  child: {fileID: 0}
+  minRotation: 0
+  maxRotation: 0
 --- !u!1 &104373375
 GameObject:
   m_ObjectHideFlags: 0
@@ -736,7 +662,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 160090809}
-  - component: {fileID: 160090810}
   m_Layer: 0
   m_Name: IRB7600-500-255_IRC5_rev01_01-10.SAT
   m_TagString: Untagged
@@ -760,81 +685,6 @@ Transform:
   m_Father: {fileID: 1048235755}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &160090810
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 160090808}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4a07b89af670684fb0ec682aa981371, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wasUserWarned: 0
-  _path: C:/Users/alexa/Downloads/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev01_01-10.SAT
-  _importTime: 637886634527250675
-  _importDuration: 10670794
-  _lastWriteTime: 637886560269615711
-  _lastFileSize: 52379
-  _importSettings: {fileID: 1429897637}
-  _rules: {fileID: 0}
---- !u!114 &190905633
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2081cc53cfa1d274baace4797d5a2a7c, type: 3}
-  m_Name: Default Import Settings
-  m_EditorClassIdentifier: 
-  loadMetadata: 1
-  importLines: 0
-  importPatchBorders: 0
-  importPoints: 0
-  scaleFactor: 0.001
-  orientation: 0
-  isLeftHanded: 0
-  isZUp: 0
-  stitchPatches: 0
-  treeProcess: 0
-  treeLevel: 1
-  mergeBy: 0
-  mergeType: 1
-  sizeOfRegions: 10
-  numberOfRegions: 10
-  repair: 1
-  combinePatchesByMaterial: 1
-  hasLODs: 0
-  lodsMode: 1
-  qualities:
-    _lods:
-    - quality: 1
-      threshold: 0.7
-    - quality: 2
-      threshold: 0.35
-    - quality: 3
-      threshold: 0.1
-    - quality: 5
-      threshold: 0
-    _locked: 1
-  voxelizeGridSize: 0
-  lodCount: 3
-  mapUV: 0
-  mapUV3dSize: -1
-  createLightmapUV: 0
-  lightmapResolution: -1
-  uvPadding: 4
-  orient: 0
-  splitTo16BytesIndex: 0
-  shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  useMaterialsInResources: 0
-  avoidNegativeScale: 1
-  repairInstances: 1
 --- !u!1 &223635780
 GameObject:
   m_ObjectHideFlags: 0
@@ -942,7 +792,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 297758918}
-  - component: {fileID: 297758919}
   m_Layer: 0
   m_Name: IRB7600_500_255_IRC5_rev04_01-2.SAT
   m_TagString: Untagged
@@ -966,26 +815,6 @@ Transform:
   m_Father: {fileID: 677880009}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -180}
---- !u!114 &297758919
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 297758917}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4a07b89af670684fb0ec682aa981371, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wasUserWarned: 0
-  _path: C:/Users/alexa/Downloads/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600_500_255_IRC5_rev04_01-2.SAT
-  _importTime: 637886633264899334
-  _importDuration: 17740188
-  _lastWriteTime: 637886560273095513
-  _lastFileSize: 1578232
-  _importSettings: {fileID: 656838607}
-  _rules: {fileID: 0}
 --- !u!1 &333026615
 GameObject:
   m_ObjectHideFlags: 0
@@ -1145,7 +974,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 352129146}
-  - component: {fileID: 352129147}
   m_Layer: 0
   m_Name: IRB7600-500-255_IRC5_rev01_01-12.SAT
   m_TagString: Untagged
@@ -1169,26 +997,6 @@ Transform:
   m_Father: {fileID: 742681909}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &352129147
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 352129145}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4a07b89af670684fb0ec682aa981371, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wasUserWarned: 0
-  _path: C:/Users/alexa/Downloads/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev01_01-12.SAT
-  _importTime: 637886634716367307
-  _importDuration: 11439335
-  _lastWriteTime: 637886560269841281
-  _lastFileSize: 188135
-  _importSettings: {fileID: 1880131489}
-  _rules: {fileID: 0}
 --- !u!1 &368864788
 GameObject:
   m_ObjectHideFlags: 0
@@ -1327,7 +1135,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3b91eec142acba45bdd8c513d28efde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_child: {fileID: 845983888}
+  child: {fileID: 845983888}
+  minRotation: -30
+  maxRotation: 95
 --- !u!1 &414923533
 GameObject:
   m_ObjectHideFlags: 0
@@ -1430,7 +1240,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 439188091}
-  - component: {fileID: 439188092}
   m_Layer: 0
   m_Name: IRB7600-500-255_IRC5_rev01_01-9.SAT
   m_TagString: Untagged
@@ -1454,26 +1263,6 @@ Transform:
   m_Father: {fileID: 677880009}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &439188092
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 439188090}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4a07b89af670684fb0ec682aa981371, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wasUserWarned: 0
-  _path: C:/Users/alexa/Downloads/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev01_01-9.SAT
-  _importTime: 637886634445410559
-  _importDuration: 12599739
-  _lastWriteTime: 637886560270361226
-  _lastFileSize: 273524
-  _importSettings: {fileID: 99576818}
-  _rules: {fileID: 0}
 --- !u!1 &439796207
 GameObject:
   m_ObjectHideFlags: 0
@@ -1483,7 +1272,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 439796208}
-  - component: {fileID: 439796209}
   m_Layer: 0
   m_Name: IRB7600-500-255_IRC5_rev03_01-6.SAT
   m_TagString: Untagged
@@ -1507,26 +1295,6 @@ Transform:
   m_Father: {fileID: 742681909}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &439796209
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 439796207}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4a07b89af670684fb0ec682aa981371, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wasUserWarned: 0
-  _path: C:/Users/alexa/Downloads/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev03_01-6.SAT
-  _importTime: 637886633901441834
-  _importDuration: 19283829
-  _lastWriteTime: 637886560272276981
-  _lastFileSize: 3690418
-  _importSettings: {fileID: 1174339585}
-  _rules: {fileID: 0}
 --- !u!43 &454536390
 Mesh:
   m_ObjectHideFlags: 0
@@ -1710,7 +1478,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 476815907}
-  - component: {fileID: 476815908}
   m_Layer: 0
   m_Name: IRB7600-500-255_IRC5_rev01_01-12.SAT
   m_TagString: Untagged
@@ -1734,26 +1501,6 @@ Transform:
   m_Father: {fileID: 340034873}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &476815908
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 476815906}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4a07b89af670684fb0ec682aa981371, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wasUserWarned: 0
-  _path: C:/Users/alexa/Downloads/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev01_01-12.SAT
-  _importTime: 637886634716367307
-  _importDuration: 11439335
-  _lastWriteTime: 637886560269841281
-  _lastFileSize: 188135
-  _importSettings: {fileID: 1880131489}
-  _rules: {fileID: 0}
 --- !u!1 &479454940
 GameObject:
   m_ObjectHideFlags: 0
@@ -1837,61 +1584,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 479454940}
   m_Mesh: {fileID: 1720262991}
---- !u!114 &480506305
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2081cc53cfa1d274baace4797d5a2a7c, type: 3}
-  m_Name: Default Import Settings
-  m_EditorClassIdentifier: 
-  loadMetadata: 1
-  importLines: 0
-  importPatchBorders: 0
-  importPoints: 0
-  scaleFactor: 0.001
-  orientation: 0
-  isLeftHanded: 0
-  isZUp: 0
-  stitchPatches: 0
-  treeProcess: 0
-  treeLevel: 1
-  mergeBy: 0
-  mergeType: 1
-  sizeOfRegions: 10
-  numberOfRegions: 10
-  repair: 1
-  combinePatchesByMaterial: 1
-  hasLODs: 0
-  lodsMode: 1
-  qualities:
-    _lods:
-    - quality: 1
-      threshold: 0.7
-    - quality: 2
-      threshold: 0.35
-    - quality: 3
-      threshold: 0.1
-    - quality: 5
-      threshold: 0
-    _locked: 1
-  voxelizeGridSize: 0
-  lodCount: 3
-  mapUV: 0
-  mapUV3dSize: -1
-  createLightmapUV: 0
-  lightmapResolution: -1
-  uvPadding: 4
-  orient: 0
-  splitTo16BytesIndex: 0
-  shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  useMaterialsInResources: 0
-  avoidNegativeScale: 1
-  repairInstances: 1
 --- !u!1 &480827124
 GameObject:
   m_ObjectHideFlags: 0
@@ -1924,61 +1616,6 @@ Transform:
   m_Father: {fileID: 1925145475}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &487947353
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2081cc53cfa1d274baace4797d5a2a7c, type: 3}
-  m_Name: Default Import Settings
-  m_EditorClassIdentifier: 
-  loadMetadata: 1
-  importLines: 0
-  importPatchBorders: 0
-  importPoints: 0
-  scaleFactor: 0.001
-  orientation: 0
-  isLeftHanded: 0
-  isZUp: 0
-  stitchPatches: 0
-  treeProcess: 0
-  treeLevel: 1
-  mergeBy: 0
-  mergeType: 1
-  sizeOfRegions: 10
-  numberOfRegions: 10
-  repair: 1
-  combinePatchesByMaterial: 1
-  hasLODs: 0
-  lodsMode: 1
-  qualities:
-    _lods:
-    - quality: 1
-      threshold: 0.7
-    - quality: 2
-      threshold: 0.35
-    - quality: 3
-      threshold: 0.1
-    - quality: 5
-      threshold: 0
-    _locked: 1
-  voxelizeGridSize: 0
-  lodCount: 3
-  mapUV: 0
-  mapUV3dSize: -1
-  createLightmapUV: 0
-  lightmapResolution: -1
-  uvPadding: 4
-  orient: 0
-  splitTo16BytesIndex: 0
-  shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  useMaterialsInResources: 0
-  avoidNegativeScale: 1
-  repairInstances: 1
 --- !u!1 &497666051
 GameObject:
   m_ObjectHideFlags: 0
@@ -2177,7 +1814,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 537034343}
-  - component: {fileID: 537034344}
   m_Layer: 0
   m_Name: IRB7600-500-255_IRC5_rev03_01-7.SAT
   m_TagString: Untagged
@@ -2201,26 +1837,6 @@ Transform:
   m_Father: {fileID: 611439011}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &537034344
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 537034342}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4a07b89af670684fb0ec682aa981371, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wasUserWarned: 0
-  _path: C:/Users/alexa/Downloads/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev03_01-7.SAT
-  _importTime: 637886634204383275
-  _importDuration: 14800269
-  _lastWriteTime: 637886560272590249
-  _lastFileSize: 1385629
-  _importSettings: {fileID: 2134458600}
-  _rules: {fileID: 0}
 --- !u!1 &589251015
 GameObject:
   m_ObjectHideFlags: 0
@@ -2263,7 +1879,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 590713090}
-  - component: {fileID: 590713091}
   m_Layer: 0
   m_Name: IRB7600-500-255_IRC5_rev01_01-5.SAT
   m_TagString: Untagged
@@ -2287,26 +1902,6 @@ Transform:
   m_Father: {fileID: 1089760313}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &590713091
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 590713089}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4a07b89af670684fb0ec682aa981371, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wasUserWarned: 0
-  _path: C:/Users/alexa/Downloads/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev01_01-5.SAT
-  _importTime: 637886633797041404
-  _importDuration: 14046908
-  _lastWriteTime: 637886560270131280
-  _lastFileSize: 1061407
-  _importSettings: {fileID: 1666921714}
-  _rules: {fileID: 0}
 --- !u!1 &593985753
 GameObject:
   m_ObjectHideFlags: 0
@@ -2437,7 +2032,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3b91eec142acba45bdd8c513d28efde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_child: {fileID: 102669977}
+  child: {fileID: 102669977}
+  minRotation: -90
+  maxRotation: 90
 --- !u!1 &651127275
 GameObject:
   m_ObjectHideFlags: 0
@@ -2521,61 +2118,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 651127275}
   m_Mesh: {fileID: 1454127584}
---- !u!114 &656838607
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2081cc53cfa1d274baace4797d5a2a7c, type: 3}
-  m_Name: Default Import Settings
-  m_EditorClassIdentifier: 
-  loadMetadata: 1
-  importLines: 0
-  importPatchBorders: 0
-  importPoints: 0
-  scaleFactor: 0.001
-  orientation: 0
-  isLeftHanded: 0
-  isZUp: 0
-  stitchPatches: 0
-  treeProcess: 0
-  treeLevel: 1
-  mergeBy: 0
-  mergeType: 1
-  sizeOfRegions: 10
-  numberOfRegions: 10
-  repair: 1
-  combinePatchesByMaterial: 1
-  hasLODs: 0
-  lodsMode: 1
-  qualities:
-    _lods:
-    - quality: 1
-      threshold: 0.7
-    - quality: 2
-      threshold: 0.35
-    - quality: 3
-      threshold: 0.1
-    - quality: 5
-      threshold: 0
-    _locked: 1
-  voxelizeGridSize: 0
-  lodCount: 3
-  mapUV: 0
-  mapUV3dSize: -1
-  createLightmapUV: 0
-  lightmapResolution: -1
-  uvPadding: 4
-  orient: 0
-  splitTo16BytesIndex: 0
-  shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  useMaterialsInResources: 0
-  avoidNegativeScale: 1
-  repairInstances: 1
 --- !u!1 &664442851
 GameObject:
   m_ObjectHideFlags: 0
@@ -2724,7 +2266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18746cba13afc3542930e20515d3615d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_child: {fileID: 102669976}
+  child: {fileID: 102669976}
 --- !u!21 &700110917
 Material:
   serializedVersion: 8
@@ -3384,7 +2926,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 780456745}
-  - component: {fileID: 780456746}
   m_Layer: 0
   m_Name: IRB7600-500-255_IRC5_rev02_01-3.SAT
   m_TagString: Untagged
@@ -3408,26 +2949,6 @@ Transform:
   m_Father: {fileID: 827865145}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &780456746
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 780456744}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4a07b89af670684fb0ec682aa981371, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wasUserWarned: 0
-  _path: C:/Users/alexa/Downloads/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev02_01-3.SAT
-  _importTime: 637886633464826629
-  _importDuration: 16676350
-  _lastWriteTime: 637886560270994656
-  _lastFileSize: 2191284
-  _importSettings: {fileID: 480506305}
-  _rules: {fileID: 0}
 --- !u!1 &785062308
 GameObject:
   m_ObjectHideFlags: 0
@@ -3472,11 +2993,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87759f6abde8f6f43aa4081c5d4d0e8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_root: {fileID: 677880012}
-  m_end: {fileID: 102669976}
-  m_target: {fileID: 1605656533}
-  m_threshold: 0.05
-  m_rate: 15
+  root: {fileID: 677880012}
+  end: {fileID: 102669976}
+  target: {fileID: 1605656533}
+  threshold: 0.05
+  rate: 15
 --- !u!1 &793380633
 GameObject:
   m_ObjectHideFlags: 0
@@ -3814,8 +3335,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 845983884}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.075, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.0750003, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3852,7 +3373,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3b91eec142acba45bdd8c513d28efde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_child: {fileID: 611439012}
+  child: {fileID: 611439012}
+  minRotation: -180
+  maxRotation: 60
 --- !u!1 &881366190
 GameObject:
   m_ObjectHideFlags: 0
@@ -3894,7 +3417,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 895231768}
-  - component: {fileID: 895231769}
   m_Layer: 0
   m_Name: IRB7600-500-255_IRC5_rev02_01-8.SAT
   m_TagString: Untagged
@@ -3918,26 +3440,6 @@ Transform:
   m_Father: {fileID: 102669973}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &895231769
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 895231767}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4a07b89af670684fb0ec682aa981371, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wasUserWarned: 0
-  _path: C:/Users/alexa/Downloads/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev02_01-8.SAT
-  _importTime: 637886634332820987
-  _importDuration: 12729020
-  _lastWriteTime: 637886560271483276
-  _lastFileSize: 219154
-  _importSettings: {fileID: 190905633}
-  _rules: {fileID: 0}
 --- !u!1 &905741244
 GameObject:
   m_ObjectHideFlags: 0
@@ -3947,7 +3449,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 905741245}
-  - component: {fileID: 905741246}
   m_Layer: 0
   m_Name: IRB7600-500-255_IRC5_rev02_01-11.SAT
   m_TagString: Untagged
@@ -3971,26 +3472,6 @@ Transform:
   m_Father: {fileID: 742681909}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &905741246
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 905741244}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4a07b89af670684fb0ec682aa981371, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wasUserWarned: 0
-  _path: C:/Users/alexa/Downloads/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev02_01-11.SAT
-  _importTime: 637886634620300611
-  _importDuration: 11901416
-  _lastWriteTime: 637886560270599764
-  _lastFileSize: 207322
-  _importSettings: {fileID: 1941851547}
-  _rules: {fileID: 0}
 --- !u!1 &908133682
 GameObject:
   m_ObjectHideFlags: 0
@@ -4032,7 +3513,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 915111704}
-  - component: {fileID: 915111705}
   m_Layer: 0
   m_Name: IRB7600-500-255_IRC5_rev01_01-9.SAT
   m_TagString: Untagged
@@ -4056,26 +3536,6 @@ Transform:
   m_Father: {fileID: 1048235755}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &915111705
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 915111703}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4a07b89af670684fb0ec682aa981371, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wasUserWarned: 0
-  _path: C:/Users/alexa/Downloads/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev01_01-9.SAT
-  _importTime: 637886634445410559
-  _importDuration: 12599739
-  _lastWriteTime: 637886560270361226
-  _lastFileSize: 273524
-  _importSettings: {fileID: 99576818}
-  _rules: {fileID: 0}
 --- !u!21 &949507524
 Material:
   serializedVersion: 8
@@ -4764,61 +4224,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1154279687}
   m_Mesh: {fileID: 1353001937}
---- !u!114 &1174339585
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2081cc53cfa1d274baace4797d5a2a7c, type: 3}
-  m_Name: Default Import Settings
-  m_EditorClassIdentifier: 
-  loadMetadata: 1
-  importLines: 0
-  importPatchBorders: 0
-  importPoints: 0
-  scaleFactor: 0.001
-  orientation: 0
-  isLeftHanded: 0
-  isZUp: 0
-  stitchPatches: 0
-  treeProcess: 0
-  treeLevel: 1
-  mergeBy: 0
-  mergeType: 1
-  sizeOfRegions: 10
-  numberOfRegions: 10
-  repair: 1
-  combinePatchesByMaterial: 1
-  hasLODs: 0
-  lodsMode: 1
-  qualities:
-    _lods:
-    - quality: 1
-      threshold: 0.7
-    - quality: 2
-      threshold: 0.35
-    - quality: 3
-      threshold: 0.1
-    - quality: 5
-      threshold: 0
-    _locked: 1
-  voxelizeGridSize: 0
-  lodCount: 3
-  mapUV: 0
-  mapUV3dSize: -1
-  createLightmapUV: 0
-  lightmapResolution: -1
-  uvPadding: 4
-  orient: 0
-  splitTo16BytesIndex: 0
-  shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  useMaterialsInResources: 0
-  avoidNegativeScale: 1
-  repairInstances: 1
 --- !u!43 &1211761500
 Mesh:
   m_ObjectHideFlags: 0
@@ -5236,7 +4641,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1236848007}
-  - component: {fileID: 1236848008}
   m_Layer: 0
   m_Name: IRB7600-500-255_IRC5_rev02_01-8.SAT
   m_TagString: Untagged
@@ -5260,26 +4664,6 @@ Transform:
   m_Father: {fileID: 908133683}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1236848008
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1236848006}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4a07b89af670684fb0ec682aa981371, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wasUserWarned: 0
-  _path: C:/Users/alexa/Downloads/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev02_01-8.SAT
-  _importTime: 637886634332820987
-  _importDuration: 12729020
-  _lastWriteTime: 637886560271483276
-  _lastFileSize: 219154
-  _importSettings: {fileID: 190905633}
-  _rules: {fileID: 0}
 --- !u!43 &1240682844
 Mesh:
   m_ObjectHideFlags: 0
@@ -5730,7 +5114,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1289317928}
-  - component: {fileID: 1289317929}
   m_Layer: 0
   m_Name: IRB7600-500-255_IRC5_rev02_01-4.SAT
   m_TagString: Untagged
@@ -5754,26 +5137,6 @@ Transform:
   m_Father: {fileID: 497666052}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1289317929
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1289317927}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4a07b89af670684fb0ec682aa981371, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wasUserWarned: 0
-  _path: C:/Users/alexa/Downloads/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev02_01-4.SAT
-  _importTime: 637886633668398541
-  _importDuration: 15960435
-  _lastWriteTime: 637886560271272341
-  _lastFileSize: 886372
-  _importSettings: {fileID: 487947353}
-  _rules: {fileID: 0}
 --- !u!21 &1299618255
 Material:
   serializedVersion: 8
@@ -6227,61 +5590,6 @@ MonoBehaviour:
   m_ObservationType: 0
   m_ObservationStacks: 1
   m_Compression: 1
---- !u!114 &1429897637
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2081cc53cfa1d274baace4797d5a2a7c, type: 3}
-  m_Name: Default Import Settings
-  m_EditorClassIdentifier: 
-  loadMetadata: 1
-  importLines: 0
-  importPatchBorders: 0
-  importPoints: 0
-  scaleFactor: 0.001
-  orientation: 0
-  isLeftHanded: 0
-  isZUp: 0
-  stitchPatches: 0
-  treeProcess: 0
-  treeLevel: 1
-  mergeBy: 0
-  mergeType: 1
-  sizeOfRegions: 10
-  numberOfRegions: 10
-  repair: 1
-  combinePatchesByMaterial: 1
-  hasLODs: 0
-  lodsMode: 1
-  qualities:
-    _lods:
-    - quality: 1
-      threshold: 0.7
-    - quality: 2
-      threshold: 0.35
-    - quality: 3
-      threshold: 0.1
-    - quality: 5
-      threshold: 0
-    _locked: 1
-  voxelizeGridSize: 0
-  lodCount: 3
-  mapUV: 0
-  mapUV3dSize: -1
-  createLightmapUV: 0
-  lightmapResolution: -1
-  uvPadding: 4
-  orient: 0
-  splitTo16BytesIndex: 0
-  shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  useMaterialsInResources: 0
-  avoidNegativeScale: 1
-  repairInstances: 1
 --- !u!21 &1432306325
 Material:
   serializedVersion: 8
@@ -6649,7 +5957,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1496859371}
-  - component: {fileID: 1496859372}
   m_Layer: 0
   m_Name: IRB7600_500_255_IRC5_rev04_01-2.SAT
   m_TagString: Untagged
@@ -6673,26 +5980,6 @@ Transform:
   m_Father: {fileID: 1048235755}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -180}
---- !u!114 &1496859372
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1496859370}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4a07b89af670684fb0ec682aa981371, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wasUserWarned: 0
-  _path: C:/Users/alexa/Downloads/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600_500_255_IRC5_rev04_01-2.SAT
-  _importTime: 637886633264899334
-  _importDuration: 17740188
-  _lastWriteTime: 637886560273095513
-  _lastFileSize: 1578232
-  _importSettings: {fileID: 656838607}
-  _rules: {fileID: 0}
 --- !u!1 &1510760215
 GameObject:
   m_ObjectHideFlags: 0
@@ -6702,7 +5989,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1510760216}
-  - component: {fileID: 1510760217}
   m_Layer: 0
   m_Name: IRB7600-500-255_IRC5_rev01_01-5.SAT
   m_TagString: Untagged
@@ -6726,26 +6012,6 @@ Transform:
   m_Father: {fileID: 589251016}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1510760217
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1510760215}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4a07b89af670684fb0ec682aa981371, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wasUserWarned: 0
-  _path: C:/Users/alexa/Downloads/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev01_01-5.SAT
-  _importTime: 637886633797041404
-  _importDuration: 14046908
-  _lastWriteTime: 637886560270131280
-  _lastFileSize: 1061407
-  _importSettings: {fileID: 1666921714}
-  _rules: {fileID: 0}
 --- !u!1 &1518369605
 GameObject:
   m_ObjectHideFlags: 0
@@ -6755,7 +6021,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1518369606}
-  - component: {fileID: 1518369607}
   m_Layer: 0
   m_Name: IRB7600-500-255_IRC5_rev03_01-1.SAT
   m_TagString: Untagged
@@ -6779,26 +6044,6 @@ Transform:
   m_Father: {fileID: 1731375516}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1518369607
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1518369605}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4a07b89af670684fb0ec682aa981371, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wasUserWarned: 0
-  _path: C:/Users/alexa/Downloads/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev03_01-1.SAT
-  _importTime: 637886632971232106
-  _importDuration: 14851567
-  _lastWriteTime: 637886560271756897
-  _lastFileSize: 937607
-  _importSettings: {fileID: 1654338734}
-  _rules: {fileID: 0}
 --- !u!43 &1533402211
 Mesh:
   m_ObjectHideFlags: 0
@@ -7055,7 +6300,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1590209142}
-  - component: {fileID: 1590209143}
   m_Layer: 0
   m_Name: IRB7600-500-255_IRC5_rev03_01-1.SAT
   m_TagString: Untagged
@@ -7079,26 +6323,6 @@ Transform:
   m_Father: {fileID: 1259441233}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1590209143
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1590209141}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4a07b89af670684fb0ec682aa981371, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wasUserWarned: 0
-  _path: C:/Users/alexa/Downloads/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev03_01-1.SAT
-  _importTime: 637886632971232106
-  _importDuration: 14851567
-  _lastWriteTime: 637886560271756897
-  _lastFileSize: 937607
-  _importSettings: {fileID: 1654338734}
-  _rules: {fileID: 0}
 --- !u!21 &1602366869
 Material:
   serializedVersion: 8
@@ -7267,68 +6491,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1605656533}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.27, y: 2.5, z: 2.43}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 2.5, z: 2}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1654338734
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2081cc53cfa1d274baace4797d5a2a7c, type: 3}
-  m_Name: Default Import Settings
-  m_EditorClassIdentifier: 
-  loadMetadata: 1
-  importLines: 0
-  importPatchBorders: 0
-  importPoints: 0
-  scaleFactor: 0.001
-  orientation: 0
-  isLeftHanded: 0
-  isZUp: 0
-  stitchPatches: 0
-  treeProcess: 0
-  treeLevel: 1
-  mergeBy: 0
-  mergeType: 1
-  sizeOfRegions: 10
-  numberOfRegions: 10
-  repair: 1
-  combinePatchesByMaterial: 1
-  hasLODs: 0
-  lodsMode: 1
-  qualities:
-    _lods:
-    - quality: 1
-      threshold: 0.7
-    - quality: 2
-      threshold: 0.35
-    - quality: 3
-      threshold: 0.1
-    - quality: 5
-      threshold: 0
-    _locked: 1
-  voxelizeGridSize: 0
-  lodCount: 3
-  mapUV: 0
-  mapUV3dSize: -1
-  createLightmapUV: 0
-  lightmapResolution: -1
-  uvPadding: 4
-  orient: 0
-  splitTo16BytesIndex: 0
-  shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  useMaterialsInResources: 0
-  avoidNegativeScale: 1
-  repairInstances: 1
 --- !u!1 &1658387675
 GameObject:
   m_ObjectHideFlags: 0
@@ -7361,61 +6530,6 @@ Transform:
   m_Father: {fileID: 476815907}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1666921714
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2081cc53cfa1d274baace4797d5a2a7c, type: 3}
-  m_Name: Default Import Settings
-  m_EditorClassIdentifier: 
-  loadMetadata: 1
-  importLines: 0
-  importPatchBorders: 0
-  importPoints: 0
-  scaleFactor: 0.001
-  orientation: 0
-  isLeftHanded: 0
-  isZUp: 0
-  stitchPatches: 0
-  treeProcess: 0
-  treeLevel: 1
-  mergeBy: 0
-  mergeType: 1
-  sizeOfRegions: 10
-  numberOfRegions: 10
-  repair: 1
-  combinePatchesByMaterial: 1
-  hasLODs: 0
-  lodsMode: 1
-  qualities:
-    _lods:
-    - quality: 1
-      threshold: 0.7
-    - quality: 2
-      threshold: 0.35
-    - quality: 3
-      threshold: 0.1
-    - quality: 5
-      threshold: 0
-    _locked: 1
-  voxelizeGridSize: 0
-  lodCount: 3
-  mapUV: 0
-  mapUV3dSize: -1
-  createLightmapUV: 0
-  lightmapResolution: -1
-  uvPadding: 4
-  orient: 0
-  splitTo16BytesIndex: 0
-  shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  useMaterialsInResources: 0
-  avoidNegativeScale: 1
-  repairInstances: 1
 --- !u!1 &1704990912
 GameObject:
   m_ObjectHideFlags: 0
@@ -7477,11 +6591,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f1ea98c66da04b4687eca0b8fd010ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_root: {fileID: 414878630}
-  m_end: {fileID: 102669977}
-  m_target: {fileID: 1605656533}
-  m_threshold: 0.05
-  m_rate: 15
+  root: {fileID: 414878630}
+  end: {fileID: 102669977}
+  target: {fileID: 1605656533}
+  threshold: 0.05
+  rate: 15
 --- !u!4 &1711405824
 Transform:
   m_ObjectHideFlags: 0
@@ -7506,7 +6620,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1713460152}
-  - component: {fileID: 1713460153}
   m_Layer: 0
   m_Name: IRB7600-500-255_IRC5_rev02_01-11.SAT
   m_TagString: Untagged
@@ -7530,26 +6643,6 @@ Transform:
   m_Father: {fileID: 340034873}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1713460153
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1713460151}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4a07b89af670684fb0ec682aa981371, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wasUserWarned: 0
-  _path: C:/Users/alexa/Downloads/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev02_01-11.SAT
-  _importTime: 637886634620300611
-  _importDuration: 11901416
-  _lastWriteTime: 637886560270599764
-  _lastFileSize: 207322
-  _importSettings: {fileID: 1941851547}
-  _rules: {fileID: 0}
 --- !u!43 &1720262991
 Mesh:
   m_ObjectHideFlags: 0
@@ -7912,7 +7005,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1771527051}
-  - component: {fileID: 1771527052}
   m_Layer: 0
   m_Name: IRB7600-500-255_IRC5_rev03_01-6.SAT
   m_TagString: Untagged
@@ -7936,26 +7028,6 @@ Transform:
   m_Father: {fileID: 340034873}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1771527052
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1771527050}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4a07b89af670684fb0ec682aa981371, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wasUserWarned: 0
-  _path: C:/Users/alexa/Downloads/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev03_01-6.SAT
-  _importTime: 637886633901441834
-  _importDuration: 19283829
-  _lastWriteTime: 637886560272276981
-  _lastFileSize: 3690418
-  _importSettings: {fileID: 1174339585}
-  _rules: {fileID: 0}
 --- !u!1 &1785401379
 GameObject:
   m_ObjectHideFlags: 0
@@ -7965,7 +7037,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1785401380}
-  - component: {fileID: 1785401381}
   m_Layer: 0
   m_Name: IRB7600-500-255_IRC5_rev01_01-10.SAT
   m_TagString: Untagged
@@ -7989,26 +7060,6 @@ Transform:
   m_Father: {fileID: 677880009}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1785401381
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1785401379}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4a07b89af670684fb0ec682aa981371, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wasUserWarned: 0
-  _path: C:/Users/alexa/Downloads/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev01_01-10.SAT
-  _importTime: 637886634527250675
-  _importDuration: 10670794
-  _lastWriteTime: 637886560269615711
-  _lastFileSize: 52379
-  _importSettings: {fileID: 1429897637}
-  _rules: {fileID: 0}
 --- !u!21 &1788749712
 Material:
   serializedVersion: 8
@@ -8238,7 +7289,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1838989248}
-  - component: {fileID: 1838989249}
   m_Layer: 0
   m_Name: IRB7600-500-255_IRC5_rev02_01-3.SAT
   m_TagString: Untagged
@@ -8262,26 +7312,6 @@ Transform:
   m_Father: {fileID: 414878627}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1838989249
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1838989247}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4a07b89af670684fb0ec682aa981371, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wasUserWarned: 0
-  _path: C:/Users/alexa/Downloads/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev02_01-3.SAT
-  _importTime: 637886633464826629
-  _importDuration: 16676350
-  _lastWriteTime: 637886560270994656
-  _lastFileSize: 2191284
-  _importSettings: {fileID: 480506305}
-  _rules: {fileID: 0}
 --- !u!1 &1870675772
 GameObject:
   m_ObjectHideFlags: 0
@@ -8346,61 +7376,6 @@ Transform:
   m_Father: {fileID: 780456745}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1880131489
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2081cc53cfa1d274baace4797d5a2a7c, type: 3}
-  m_Name: Default Import Settings
-  m_EditorClassIdentifier: 
-  loadMetadata: 1
-  importLines: 0
-  importPatchBorders: 0
-  importPoints: 0
-  scaleFactor: 0.001
-  orientation: 0
-  isLeftHanded: 0
-  isZUp: 0
-  stitchPatches: 0
-  treeProcess: 0
-  treeLevel: 1
-  mergeBy: 0
-  mergeType: 1
-  sizeOfRegions: 10
-  numberOfRegions: 10
-  repair: 1
-  combinePatchesByMaterial: 1
-  hasLODs: 0
-  lodsMode: 1
-  qualities:
-    _lods:
-    - quality: 1
-      threshold: 0.7
-    - quality: 2
-      threshold: 0.35
-    - quality: 3
-      threshold: 0.1
-    - quality: 5
-      threshold: 0
-    _locked: 1
-  voxelizeGridSize: 0
-  lodCount: 3
-  mapUV: 0
-  mapUV3dSize: -1
-  createLightmapUV: 0
-  lightmapResolution: -1
-  uvPadding: 4
-  orient: 0
-  splitTo16BytesIndex: 0
-  shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  useMaterialsInResources: 0
-  avoidNegativeScale: 1
-  repairInstances: 1
 --- !u!1 &1887307938
 GameObject:
   m_ObjectHideFlags: 0
@@ -8577,7 +7552,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1925145475}
-  - component: {fileID: 1925145476}
   m_Layer: 0
   m_Name: IRB7600-500-255_IRC5_rev02_01-4.SAT
   m_TagString: Untagged
@@ -8601,26 +7575,6 @@ Transform:
   m_Father: {fileID: 845983885}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1925145476
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1925145474}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4a07b89af670684fb0ec682aa981371, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wasUserWarned: 0
-  _path: C:/Users/alexa/Downloads/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev04-ACIS_j/IRB7600-500-255_IRC5_rev02_01-4.SAT
-  _importTime: 637886633668398541
-  _importDuration: 15960435
-  _lastWriteTime: 637886560271272341
-  _lastFileSize: 886372
-  _importSettings: {fileID: 487947353}
-  _rules: {fileID: 0}
 --- !u!1 &1931094759
 GameObject:
   m_ObjectHideFlags: 0
@@ -8736,61 +7690,6 @@ Transform:
   m_Father: {fileID: 56592165}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1941851547
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2081cc53cfa1d274baace4797d5a2a7c, type: 3}
-  m_Name: Default Import Settings
-  m_EditorClassIdentifier: 
-  loadMetadata: 1
-  importLines: 0
-  importPatchBorders: 0
-  importPoints: 0
-  scaleFactor: 0.001
-  orientation: 0
-  isLeftHanded: 0
-  isZUp: 0
-  stitchPatches: 0
-  treeProcess: 0
-  treeLevel: 1
-  mergeBy: 0
-  mergeType: 1
-  sizeOfRegions: 10
-  numberOfRegions: 10
-  repair: 1
-  combinePatchesByMaterial: 1
-  hasLODs: 0
-  lodsMode: 1
-  qualities:
-    _lods:
-    - quality: 1
-      threshold: 0.7
-    - quality: 2
-      threshold: 0.35
-    - quality: 3
-      threshold: 0.1
-    - quality: 5
-      threshold: 0
-    _locked: 1
-  voxelizeGridSize: 0
-  lodCount: 3
-  mapUV: 0
-  mapUV3dSize: -1
-  createLightmapUV: 0
-  lightmapResolution: -1
-  uvPadding: 4
-  orient: 0
-  splitTo16BytesIndex: 0
-  shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  useMaterialsInResources: 0
-  avoidNegativeScale: 1
-  repairInstances: 1
 --- !u!21 &1942979839
 Material:
   serializedVersion: 8
@@ -9483,58 +8382,3 @@ Transform:
   m_Father: {fileID: 352129146}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2134458600
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2081cc53cfa1d274baace4797d5a2a7c, type: 3}
-  m_Name: Default Import Settings
-  m_EditorClassIdentifier: 
-  loadMetadata: 1
-  importLines: 0
-  importPatchBorders: 0
-  importPoints: 0
-  scaleFactor: 0.001
-  orientation: 0
-  isLeftHanded: 0
-  isZUp: 0
-  stitchPatches: 0
-  treeProcess: 0
-  treeLevel: 1
-  mergeBy: 0
-  mergeType: 1
-  sizeOfRegions: 10
-  numberOfRegions: 10
-  repair: 1
-  combinePatchesByMaterial: 1
-  hasLODs: 0
-  lodsMode: 1
-  qualities:
-    _lods:
-    - quality: 1
-      threshold: 0.7
-    - quality: 2
-      threshold: 0.35
-    - quality: 3
-      threshold: 0.1
-    - quality: 5
-      threshold: 0
-    _locked: 1
-  voxelizeGridSize: 0
-  lodCount: 3
-  mapUV: 0
-  mapUV3dSize: -1
-  createLightmapUV: 0
-  lightmapResolution: -1
-  uvPadding: 4
-  orient: 0
-  splitTo16BytesIndex: 0
-  shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  useMaterialsInResources: 0
-  avoidNegativeScale: 1
-  repairInstances: 1
