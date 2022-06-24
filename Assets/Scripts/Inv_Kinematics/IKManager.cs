@@ -1,49 +1,51 @@
-
 using UnityEngine;
 
-public class IKManager : MonoBehaviour
+namespace Inv_Kinematics
 {
-    public Joint m_root;
-
-    public Joint m_end;
-
-    public GameObject m_target;
-
-    public float m_threshold = 0.05f;
-
-    public float m_rate = 5f;
-
-    float CalculateSlope(Joint _joint)
+    public class IKManager : MonoBehaviour
     {
-        float deltaTheta = 0.01f;
-        float distance1 = GetDistance(m_end.transform.position, m_target.transform.position);
-        
-        _joint.Rotate(deltaTheta);
+        public Joint root;
 
-        float distance2 = GetDistance(m_end.transform.position, m_target.transform.position);
-        
-        _joint.Rotate(-deltaTheta);
+        public Joint end;
 
-        return (distance2 - distance1) / deltaTheta;
-    }
+        public GameObject target;
 
-    private void Update()
-    {
-        if (GetDistance(m_end.transform.position, m_target.transform.position) > m_threshold)
+        public float threshold = 0.05f;
+
+        public float rate = 5f;
+
+        float CalculateSlope(Joint joint)
         {
-            Joint current = m_root;
-            while (current != null)
+            float deltaTheta = 0.01f;
+            float distance1 = GetDistance(end.transform.position, target.transform.position);
+        
+            joint.Rotate(deltaTheta);
+
+            float distance2 = GetDistance(end.transform.position, target.transform.position);
+        
+            joint.Rotate(-deltaTheta);
+
+            return (distance2 - distance1) / deltaTheta;
+        }
+
+        private void Update()
+        {
+            if (GetDistance(end.transform.position, target.transform.position) > threshold)
             {
-                float slope = CalculateSlope(current);
-                current.Rotate(-slope * m_rate);
-                current = current.GetChild();
+                Joint current = root;
+                while (current != null)
+                {
+                    float slope = CalculateSlope(current);
+                    current.Rotate(-slope * rate);
+                    current = current.GetChild();
+                }
             }
         }
-    }
 
 
-    float GetDistance(Vector3 _point1, Vector3 _point2)
-    {
-        return Vector3.Distance(_point1, _point2);
+        float GetDistance(Vector3 point1, Vector3 point2)
+        {
+            return Vector3.Distance(point1, point2);
+        }
     }
 }
