@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace Inv_Kinematics
@@ -9,28 +10,42 @@ namespace Inv_Kinematics
         public Joint end;
 
         public GameObject target;
-
+        
         public float threshold = 0.05f;
 
         public float rate = 5f;
+        
+        public GameObject cameraSensor;
+
+        public CameraSensor _cameraSensor;
+        
+        public Vector3 _soldierCoordinates;
 
         float CalculateSlope(Joint joint)
         {
             float deltaTheta = 0.01f;
-            float distance1 = GetDistance(end.transform.position, target.transform.position);
+            float distance1 = GetDistance(end.transform.position, _soldierCoordinates);
         
             joint.Rotate(deltaTheta);
 
-            float distance2 = GetDistance(end.transform.position, target.transform.position);
+            float distance2 = GetDistance(end.transform.position, _soldierCoordinates);
         
             joint.Rotate(-deltaTheta);
 
             return (distance2 - distance1) / deltaTheta;
         }
 
+        private void Start()
+        {
+            cameraSensor = GameObject.Find("Robot Camera");
+            _cameraSensor = cameraSensor.GetComponent<CameraSensor>();
+            _soldierCoordinates = _cameraSensor.soldierCoordinates;
+        }
+
         private void Update()
         {
-            if (GetDistance(end.transform.position, target.transform.position) > threshold)
+            _soldierCoordinates = _cameraSensor.soldierCoordinates;
+            if (GetDistance(end.transform.position, _soldierCoordinates) > threshold)
             {
                 Joint current = root;
                 while (current != null)

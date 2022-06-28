@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class CameraSensor : MonoBehaviour
 {
+    public Vector3 soldierCoordinates;
     private Camera _cam;
     private Texture2D _tex;
     
@@ -25,7 +26,7 @@ public class CameraSensor : MonoBehaviour
         yield return new WaitForEndOfFrame();
     }
    
-    private Vector3 GetRobotCoordinates()
+    private Vector3 getSoldierCoordinates()
     {
         LateUpdate();
         int sourceMipLevel = 0;
@@ -74,6 +75,6 @@ public class CameraSensor : MonoBehaviour
 
     private void Update()
     {
-        GetRobotCoordinates();
+        soldierCoordinates = getSoldierCoordinates();
     }
 }
