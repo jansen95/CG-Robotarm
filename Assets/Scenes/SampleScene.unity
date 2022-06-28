@@ -2997,7 +2997,7 @@ MonoBehaviour:
   end: {fileID: 102669976}
   target: {fileID: 1605656533}
   threshold: 0.05
-  rate: 15
+  rate: 100
 --- !u!1 &793380633
 GameObject:
   m_ObjectHideFlags: 0
@@ -6595,7 +6595,7 @@ MonoBehaviour:
   end: {fileID: 102669977}
   target: {fileID: 1605656533}
   threshold: 0.05
-  rate: 15
+  rate: 100
 --- !u!4 &1711405824
 Transform:
   m_ObjectHideFlags: 0

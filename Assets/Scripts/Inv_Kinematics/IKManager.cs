@@ -36,7 +36,7 @@ namespace Inv_Kinematics
                 while (current != null)
                 {
                     float slope = CalculateSlope(current);
-                    current.Rotate(-slope * rate);
+                    current.Rotate(-slope * rate * 70 * Time.deltaTime);
                     current = current.GetChild();
                 }
             }
