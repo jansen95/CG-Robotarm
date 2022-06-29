@@ -12,7 +12,7 @@ namespace Inv_Kinematics
 
         public float threshold = 0.05f;
 
-        public float rate = 5f;
+        public float rate = 100f;
 
         float CalculateSlope(Joint joint)
         {
