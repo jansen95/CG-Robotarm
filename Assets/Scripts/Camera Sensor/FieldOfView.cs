@@ -10,6 +10,7 @@ namespace Camera_Sensor
         public float angle;
 
         public GameObject playerRef;
+        public GameObject projectionObject;
 
         public LayerMask targetMask;
         public LayerMask obstructionMask;
@@ -47,7 +48,10 @@ namespace Camera_Sensor
                     float distanceToTarget = Vector3.Distance(transform.position, target.position);
 
                     if (!Physics.Raycast(transform.position, directionToTarget, distanceToTarget, obstructionMask))
+                    {
                         canSeePlayer = true;
+                        projectionObject.transform.position = target.transform.position;
+                    }
                     else
                         canSeePlayer = false;
                 }
