@@ -13,12 +13,13 @@ public class HumanView : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Update is called once per frame
     void Update()
     {
+    /*
         if(Input.GetKey(KeyCode.S))
         {
             transform.Rotate(new Vector3(mouseSensitivity * Time.deltaTime,0,0));
@@ -35,9 +36,9 @@ public class HumanView : MonoBehaviour
         {
             playerBody.Rotate(new Vector3(0,mouseSensitivity * Time.deltaTime,0));
         }
-
+*/
         
-        /*
+        
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
 
@@ -46,7 +47,7 @@ public class HumanView : MonoBehaviour
         
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
         playerBody.Rotate(Vector3.up * mouseX);
-        */
+        
         
     }
 }
