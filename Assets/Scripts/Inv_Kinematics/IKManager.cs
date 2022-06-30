@@ -14,6 +14,22 @@ namespace Inv_Kinematics
 
         public float rate = 100f;
 
+        
+        private void Update()
+        {
+            if (GetDistance(end.transform.position, target.transform.position) > threshold)
+            {
+                Joint current = root;
+                while (current != null)
+                {
+                    float slope = CalculateSlope(current);
+                    current.Rotate(slope * rate * 70 * Time.deltaTime);
+                    current = current.GetChild();
+                }
+            }
+        }
+        
+        
         float CalculateSlope(Joint joint)
         {
             float deltaTheta = 0.01f;
@@ -25,27 +41,15 @@ namespace Inv_Kinematics
         
             joint.Rotate(-deltaTheta);
 
-            return (distance2 - distance1) / deltaTheta;
+            return (distance1 - distance2) / deltaTheta;
         }
 
-        private void Update()
-        {
-            if (GetDistance(end.transform.position, target.transform.position) > threshold)
-            {
-                Joint current = root;
-                while (current != null)
-                {
-                    float slope = CalculateSlope(current);
-                    current.Rotate(-slope * rate * 70 * Time.deltaTime);
-                    current = current.GetChild();
-                }
-            }
-        }
-
-
+        
         float GetDistance(Vector3 point1, Vector3 point2)
         {
             return Vector3.Distance(point1, point2);
         }
+        
+        
     }
 }

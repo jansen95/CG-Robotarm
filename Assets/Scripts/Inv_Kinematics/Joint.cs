@@ -15,8 +15,6 @@ namespace Inv_Kinematics
         {
             transform.Rotate(Vector3.up * angle);
         }
-
-
-
+        
     }
 }
